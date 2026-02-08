@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>791afd54-c105-4643-940a-46e367385b3d</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.12" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.12.36" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEGUROS.TesteTecnico.APPLICATION\SEGUROS.TesteTecnico.PropostaService.csproj" />
+    <ProjectReference Include="..\SEGUROS.TesteTecnico.ContratacaoService\SEGUROS.TesteTecnico.ContratacaoService.csproj" />
+    <ProjectReference Include="..\SEGUROS.TesteTecnico.INFRASTRUCTURE\SEGUROS.TesteTecnico.PropostaService.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

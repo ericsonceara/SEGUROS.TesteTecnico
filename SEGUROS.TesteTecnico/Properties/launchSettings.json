@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SEGUROS.TesteTecnico": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

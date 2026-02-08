@@ -1,0 +1,6 @@
+@SEGUROS.TesteTecnico.Contratacao.API_HostAddress = http://localhost:5002
+
+GET {{SEGUROS.TesteTecnico.Contratacao.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
