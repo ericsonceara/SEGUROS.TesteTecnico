@@ -31,6 +31,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEGUROS.TesteTecico.Propost
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEGUROS.TesteTecico.ContratacaoService.Tests", "SEGUROS.TesteTecico.ContratacaoService.Tests\SEGUROS.TesteTecico.ContratacaoService.Tests.csproj", "{EBF4A3AA-3204-4CA7-9432-3484314EB2E7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Compose", "6 - Compose", "{31AF2467-F552-4939-AD78-B186AFF874DD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\docker-compose.yml = ..\..\..\..\Downloads\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\README.md = ..\..\..\..\Downloads\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
